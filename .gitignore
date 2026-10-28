@@ -1,0 +1,18 @@
+node_modules/
+dist/
+data/*
+!data/.gitkeep
+.env
+.env.local
+*.log
+tmp/
+
+# Local secrets, model assets and generated artifacts
+.env.*
+!.env.example
+output/
+*.pem
+*.key
+*.safetensors
+*.gguf
+*.ckpt
